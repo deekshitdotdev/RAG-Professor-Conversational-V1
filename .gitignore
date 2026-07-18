@@ -1,0 +1,58 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# ==========================
+# Environment variables
+# ==========================
+.env
+.env.*
+
+# ==========================
+# Node / React
+# ==========================
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# ==========================
+# Build files
+# ==========================
+*.log
+
+# ==========================
+# AI / RAG generated data
+# ==========================
+data/
+uploads/
+chroma/
+chromadb/
+history.json
+
+# ==========================
+# Models / caches
+# ==========================
+.cache/
+.cache_models/
+huggingface_cache/
+
+# ==========================
+# IDE
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# OS
+# ==========================
+.DS_Store
+Thumbs.db

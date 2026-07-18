@@ -1,0 +1,16 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+pydantic==2.9.2
+
+chromadb==0.5.15
+sentence-transformers==3.1.1
+rank-bm25==0.2.2
+PyMuPDF==1.24.10
+
+requests==2.32.3
+psutil==6.0.0
+
+# NOTE: torch is intentionally NOT pinned to a CUDA build here.
+# Install it separately with the command in README.md so you get the
+# right CUDA wheel for your driver instead of a plain CPU build.
